@@ -1,0 +1,27 @@
+---
+title: "Home"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+# Welcome
+
+## Matt McCabe
+
+I'm a Data Scientist in the healthcare/biotechnology industry.
+
+I analyze complex data to solve real clinical problems in medical imaging. My background spans laboratory neuroscience, therapeutic development, and computational modeling — all converging on my current work applying AI to radiology.
+
+## What You'll Find Here
+
+- **Data Science Explorations**: Analyses, tutorials, and insights on methods I'm using and learning
+- **Applied AI in Healthcare**: Perspectives on bringing AI into healthcare/biomedical workflows
+- **Technical Guides**: Practical implementations in Python, Bayesian methods, and machine learning
+- **Occasional Detours**: Thoughts on life and other interests
+
+## Recent Posts
+
+[Blog post previews will appear here]

@@ -1,0 +1,52 @@
+---
+title: "Probability of forgetting dog poop"
+author: Matt McCabe
+date: 2025-05-14
+---
+
+A neighbor sent me a picture of one of my forgotten dog poop bags this morning. This has always happened occassionally. Ever since we had one dog, we would forget her poop bag something like 10% of the time. But now we have 2 dogs. Twice the number of poops, twice the number of poop bags, twice the probability of forgetting.
+
+# $P$ Forgotten Poop
+
+This is a standard binomial:
+
+$$
+FP = np
+$$
+
+Where $n$ is the number of poops and $p$ is the probability of forgetting the poop. How many would we expect to forget in a week?
+
+If we assume a dog poops once a day and there's a 10% chance of forgetting, when we have 1 dog the maximum range is 0-7. With two dogs, the maximum range is 0-14.
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+plt.style.use("bmh")
+import scipy.stats as ss
+
+n_forgotten = np.arange(0, 14)
+p_forgotten_one_dog = ss.binom(n=7, p=0.1).pmf(n_forgotten)
+p_forgotten_two_dog = ss.binom(n=14, p=0.1).pmf(n_forgotten)
+
+fig, ax = plt.subplots()
+ax.plot(n_forgotten, p_forgotten_one_dog, label="One Dog", marker="o")
+ax.plot(n_forgotten, p_forgotten_two_dog, label="Two Dogs", marker="o")
+ax.legend(fontsize=16)
+
+ax.text(
+    8,
+    0.3,
+    "$p_{forget}=0.1$\nn=1 poop per dog per day",
+    fontsize=14,
+    ha="center",
+    bbox=dict(facecolor="white", alpha=0.5, edgecolor="black"),
+)
+
+_ = ax.set(
+    xlabel="Number of Forgotten Poops",
+    ylabel="Probability in a Week",
+    title="Probability of weekly dog-poop-forgetting\nfor one dog compared to two dogs",
+)
+```

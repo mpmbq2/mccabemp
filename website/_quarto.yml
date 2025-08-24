@@ -1,0 +1,23 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!posts/drafts/*.qmd"
+
+website:
+  title: "Matt McCabe, PhD"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - blog.qmd
+
+format:
+  html:
+    theme:
+      - simplex
+      - brand
+    css: styles.css
+    toc: true
+    code-fold: true

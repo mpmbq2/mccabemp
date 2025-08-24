@@ -1,0 +1,12 @@
+# Here you can define all your datasets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+simulated_read_times:
+  type: pandas.ParquetDataset
+  filepath: data/01_synthetic/simulated_read_times.parquet
+
+read_time_idata:
+  type: pickle.PickleDataset
+  filepath: data/04_outputs/read_time_idata.pickle

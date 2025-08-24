@@ -1,0 +1,34 @@
+[workspace]
+authors = ["Matthew McCabe <mpmbq2@gmail.com>"]
+channels = ["conda-forge"]
+name = "mccabemp"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+numba = ">=0.61.2,<0.62"
+numpy = ">=2.2.6,<3"
+arviz = ">=0.22.0,<0.23"
+pymc = ">=5.25.1,<6"
+statsmodels = ">=0.14.5,<0.15"
+pandas = ">=2.3.2,<3"
+polars = ">=1.32.3,<2"
+quarto = ">=1.7.33,<2"
+nutpie = ">=0.15.2,<0.16"
+kedro = ">=1.0.0,<2"
+seaborn = ">=0.13.2,<0.14"
+altair = ">=5.5.0,<6"
+jupyter = ">=1.1.1,<2"
+ipython = ">=8.37.0,<9"
+jupyterlab = ">=4.4.6,<5"
+marimo = ">=0.15.0,<0.16"
+matplotlib = ">=3.10.5,<4"
+pyarrow = ">=21.0.0,<22"
+
+[pypi-dependencies]
+bayeux-ml = ">=0.1.15, <0.2"
+mccabemp = { path = "codebase", editable = true }
+

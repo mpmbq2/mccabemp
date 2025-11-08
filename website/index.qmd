@@ -1,27 +1,18 @@
 ---
-title: "Home"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
+title: "About Me"
 ---
 
-# Welcome
+I am a neuroscientist, data scientist, Bayesian stats nerd, burdgeoning epidemiologist, hiker, skiier, cyclist, bike mechanic, lumberjack, amateur network architect, dog trainer, carpenter, golfer, and many more things I forgot to list. 
+I have yet to find a subject that didn't have something interesting to it.
+I've worked in psychology research labs, physiology labs, a preclinical biotech startup, and a medical device company specializing in AI for cancer detection.
+The common theme is that I am a team player that solves problems. I end up in places where something needs to get done, and I do it.
+Most recently, the things that needed doing involved clinical analytics -- both pre-market opportunity evaluation and POC development, as well as post-market product monitoring and evaluation. And, as with everyone else in the world, exploring ways to integrate LLMs into everything we do.
 
-## Matt McCabe
+Writing this "About Me" page was painful. I don't like self-aggrandizement. And there's no good way to write about myself without feeling like I'm "tooting my own horn." So I'm going to stop now. To learn more about me, take a look at all the snippets below. They're quotes I have found meaningful. Hopefully they give oyu a little more knowledge "About Me."
 
-I'm a Data Scientist in the healthcare/biotechnology industry.
+# Snippets
 
-I analyze complex data to solve real clinical problems in medical imaging. My background spans laboratory neuroscience, therapeutic development, and computational modeling — all converging on my current work applying AI to radiology.
+> Brilliance represents an upper bound on the quality of your reasoning, but there is no lower bound. The most brilliant scientist in the world can take really dumb stances. Indeed, the success that often goes with brilliance can encourage a blind stubbornness. Not always—some top scientists are admirably skeptical of their own ideas—but sometimes. And if you want to be stubborn, again, there’s no lower bound on how wrong you can be.
+> 
+> -[Andrew Gelman](https://statmodeling.stat.columbia.edu/2022/06/08/how-can-a-top-scientist-be-so-confidently-wrong-r-a-fisher-and-smoking-example/)
 
-## What You'll Find Here
-
-- **Data Science Explorations**: Analyses, tutorials, and insights on methods I'm using and learning
-- **Applied AI in Healthcare**: Perspectives on bringing AI into healthcare/biomedical workflows
-- **Technical Guides**: Practical implementations in Python, Bayesian methods, and machine learning
-- **Occasional Detours**: Thoughts on life and other interests
-
-## Recent Posts
-
-[Blog post previews will appear here]

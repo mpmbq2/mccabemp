@@ -10,7 +10,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
       - blog.qmd
 
 format:
@@ -21,3 +20,6 @@ format:
     css: styles.css
     toc: true
     code-fold: true
+
+execute:
+  cache: true

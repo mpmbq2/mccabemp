@@ -7,26 +7,19 @@ date-modified: last-modified
 
 # Writing Clean Python for Data Science
 
-Writing clean code is challenging. It often requires finding suitable abstractions for your objectives and implementing them effectively. In Python, these abstractions typically take the form of objects. In my experience, the most common pattern is a composite strategy—where you have a sequence of processing steps that you compose into a pipeline.
+In data science, the majority of the code you write is throw-away code -- stuff that you write quickly to see if something works. Most of the time it doesn't, and you discard it and move on. This is why, despite all the hate they get, Jupyter notebooks are excellent tools. It's the perfect UI for experimenting with scratch code. 
 
-But what about your everyday data science and analytics work? What about working with purely tabular data in Pandas DataFrames? Particularly in Jupyter notebooks, code can quickly become disorganized. Some might argue that notebooks are meant for exploratory work, and anything worth keeping should be refactored. For production data science code, I completely agree. However, with analytics-oriented work, it's not always immediately obvious what should be preserved and what is disposable. You might not know until months later when a stakeholder requests an update.
-
-If you write cleaner code in your notebooks from the start, your future self will be grateful. But how can you achieve this?
+However, when something works you need to clean it up. And cleaning up scrap code can be a pain. But I have found that the single best technique for simplifying the conversion from scrap to production is to really lean into Method Chaining. I came to this realization while learning Polars, but quickly realized it's actually the ideal way to write Pandas code as well.
 
 # Method Chaining
 
-Method chaining is a programming pattern that allows you to perform multiple operations on the same object in a single statement. In Python's data science ecosystem, particularly with Pandas, this approach can significantly improve code readability and maintainability.
+Method chaining is just a Python technique that allows you to call multiple object methods in sequence. This is possible when object methods return `self` -- since the method is returning the object that called the method, you can keep calling methods on the same object to create a pipeline.
 
-## Benefits of Method Chaining
-
-**Improved readability**: Operations flow logically from top to bottom
-**Reduced variable clutter**: Fewer intermediate variables polluting your namespace
-**Enhanced maintainability**: Easier to add, remove, or reorder processing steps
-**Better documentation**: The chain itself documents the transformation sequence
+This approach may feel familiar to R users as it's very similar to using the pipe (`%>%`) operator to pass the return value of one function as an input to another function.
 
 ## Pandas Example
 
-Instead of:
+Consider a simple pandas pipeline where you load some data, drop rows with missing values, raname a column, create a new column, then perform a groupby/aggregation operation. It would typically look something like this:
 
 ```python
 df = pd.read_csv('data.csv')
@@ -35,17 +28,35 @@ df = df.rename(columns={'old_name': 'new_name'})
 df['calculated'] = df['value'] * 2
 result = df.groupby('category').sum()
 ```
-You can write:
+
+This absolutely works. And with this small example, it's fine enough. But as your scratch code grows, it becomes difficult to keep track of what means what and when. The values contained in the variable `df` changes as you go along. If you utilize this style in a jupyter notebook and iteratively change the contents of a dataframe across multiple cells, it becomes very difficult to keep track of it very fast.
+
+Consider instead the same pipeline, but using method chaining:
 
 ```python
-result = (pd.read_csv('data.csv')
-          .dropna()
-          .rename(columns={'old_name': 'new_name'})
-          .assign(calculated=lambda x: x['value'] * 2)
-          .groupby('category')
-          .sum())
+df = (
+    pd.read_csv('data.csv')
+    .dropna()
+    .rename(columns={'old_name': 'new_name'})
+    .assign(calculated=lambda x: x['value'] * 2)
+)
+
+result = (
+    df.groupby('category')
+    .sum()
+)
 ```
+
+So what's the value in writing code this way? The main benefit is that the data is read from CSV and transformed "in flight" on its way to being assigned to the `df` variable. This makes it _much_ easier to understand exactly what is contained in `df` because you don't have to remember so many intermediate steps. 
+
 This approach creates a clear data transformation pipeline that's easier to understand and modify.
+
+## Benefits of Method Chaining
+
+**Improved readability**: Operations flow logically from top to bottom
+**Reduced variable clutter**: Fewer intermediate variables polluting your namespace
+**Enhanced maintainability**: Easier to add, remove, or reorder processing steps
+**Better documentation**: The chain itself documents the transformation sequence
 
 ## When to Use Method Chaining
 

@@ -6,9 +6,11 @@ date: 2025-05-14
 
 A neighbor sent me a picture of one of my forgotten dog poop bags this morning. This has always happened occassionally. Ever since we had one dog, we would forget her poop bag something like 10% of the time. But now we have 2 dogs. Twice the number of poops, twice the number of poop bags, twice the probability of forgetting.
 
+My way of apologizing, while also acknowledging that it will probably keep happening, was to make my neighbor a nice graph showing the probability distributino of how many poop bags he should expect me to forget in a week, assuming I don't get any better at remembering them.
+
 # $P$ Forgotten Poop
 
-This is a standard binomial:
+This problem is a standard binomial:
 
 $$
 FP = np
@@ -50,3 +52,11 @@ _ = ax.set(
     title="Probability of weekly dog-poop-forgetting\nfor one dog compared to two dogs",
 )
 ```
+
+# What have we learned?
+
+Frankly this result is more interesting than I expected. The probability of forgetting one poop bag per week is nearly the same given two dogs, roughtly 37%. But the probability of forgetting zero poops drops from almost 50% to below 25%. And that 25% is reallocated to the 2-5 "forgets" range. 
+
+But what did we _really_ learn here? We learned that if I do nothing, I'm going to forget a lot more poop bags.
+
+I just ordered some blaze orange bags...

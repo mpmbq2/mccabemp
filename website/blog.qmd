@@ -6,3 +6,34 @@ listing:
   type: default
   categories: true
 ---
+
+<details>
+<summary>My Blogging Philosophy</summary>
+
+As of this writing (2025), LLMs like ChatGPT have totally changed the way we live and work. 
+It has enabled us to go from 0 to 1 extremely quickly.
+In my day-job as a data scientist, I can complete an analysis task, then have Gemini put together a short write-up in seconds.
+In my personal life, the moment I have a blog idea, I can feed it into Claude, have it write the thing, and just publish it.
+
+But that's inauthentic. It's not my voice. And it fundamentally lacks creativity. 
+Here in 2025, that's what we have to offer. Our authentic voice. 
+Is my writing as good as what these models can put together? Honestly, no. I'm not that great of a writer.
+But I am a human, and my writing will have that human touch. That little bit of "that sentence didn't quite work" that tells you it's me.
+
+Anyway, to my philosophy: I'm not going to publish anything here that I didn't write myself -- no LLMs involved.
+There is no doubt that people who fail to learn to work with LLMs will be left behind. But my goal here isn't to produce _lots_ of content.
+My goal is to produce _real_ conent. _Human_ content. My own thoughts. My own reflections.
+This is where I will continue to hone my skill as a writer.
+
+Critically, for me anyway, this will also be a space where I learn to open myself up to criticism.
+I'm typically reluctant to share my thoughts in writing. I'll happily discuss them with people.
+But putting thoughts in writing has always made me feel vulnerable.
+For example, I have never looked back on a Facebook or Twitter post even 2 days after writing it and thought "wow, what a great point I made."
+I am always critical of my past self.
+So the goal here is to learn to put my thoughts out there, and to let you be critical of them if you want.
+Because the greater crime would be keeping everything to myself.
+
+</details>
+
+# The Blog
+

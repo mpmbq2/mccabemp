@@ -1,0 +1,32 @@
+---
+title: "Uncovering Hidden Truth"
+format: html
+---
+
+A blog post about Bayesian statistics? Que the obligatory Andrew Gelman quote:
+
+> A Bayesian is just a statistician who uses Bayesian methods even when they're not appropriate.
+
+I'm not a statistician. But I am someone who uses Bayesian methods when other methods would do. But I have my reasons. And I'll tell you about them now.
+
+# Motivations
+
+Early in my scientific career ,I became aware of the growing criticisms of science coming from the likes of John Ioannidis, among many others. The core criticism was that the scientific enterprise is fundamentally flawed due to a range of biases, the ultimate consequence of which is that most scientific findings are not replicable. 
+
+In parallel, I was taking obligatory statistics courses as part of the graduate school curriculum. They were your standard fare courses. You start with the t-test: If the data is normally distributed, and you have two groups, you open up SPSS, put in your measurement and your group factor, and look for p<0.05. The course proceeded to ANOVA, then ANCOVA, then regression analysis. Somewhere along the way, I became confused about something -- I don't remember what it was now. But I remember asking the professor a series of 4 or 5 questions, and being unable to understand what he was trying to tell me. I suspect he wasn't sure what he was trying to tell me either. But the thing he told me to end the question I feel is emblematic of the mindset that has caused almost all of our problems as they relate to data and uncertainty quantificaiton in science. He said: 
+
+> Look, at some point you just have to accept that the method is the method. You're not going to understand it. You just have to do it.
+
+These two factors, early in my career, pushed me down a very different path than I had originally planned. The literature around the reproducibility crisis frequenty cited Bayesian statsitics as a potential remedy, but explanations as to why were never clear. And the rebuff from my statistics professor succeeded and stoking my curiosity. I found myself drifting deeper and deeper down the path to becoming a Bayesian.
+
+# My view of Stats
+
+The goal of statistics is to uncover hidden truth.
+
+The problem with frequentist methods is that they are deductive: You have a hypothesis. You assume it is incorrect. You collect data, and if that data is surprising under your assumption of incorrectness, you deduce that you must be correct. By contrast, Bayesian methods are inductive: you have a hypothesis. You collect data. You ask how probable your hypothesis is in light if your data. You never get a clear yes-or-no answer. Instead, you get a probability (e.g. there's an 80% chance I'm correct). What you do with it is your business.
+
+Bayesian methods allow you to set up complex scenarios. For example, say you have a test for cancer. In a frequentist approach, you would look for cancer diagnosis among all people who take the test. In contrast, in a Bayesian approach, you look for sensitivity, specificy, and prevalence.
+
+Frequentist methods give you point estimates and intervals, and any derived factors must be obtained by complex integrals, if it's even possible. Bayesian methods give you samples from a posterior distribution, which you are free to combine in any way you like -- you get the (approximate) integral for free. 
+
+

@@ -1,0 +1,29 @@
+---
+title: "Data Does Not Speak"
+subtitle: "A personal philosophy of data science, part 1"
+author: "Matt McCabe"
+date: "2026-05-26"
+date-modified: last-modified
+draft: true
+---
+
+There's a common claim in our industry that goes something like: *let the data speak for itself*. It sounds humble. It sounds rigorous. It is neither. It is the central misconception of modern data work.
+
+Data does not speak. Data sits in a table. A column of numbers cannot tell you what it means, where it came from, what was excluded when it was collected, or which decision it should inform. All of that comes from somewhere outside the data — from the world, from the people who collected it, from the person reading it.
+
+When we say "the data speaks," what we actually mean is "the person looking at the data spoke, and used the data as evidence for what they said." Strip away the analyst, and the dataset is silent. Strip away the domain, the stakeholders, the operational context, and the dataset is silent. Data is mute. We are the ones who give it a voice.
+
+This matters because it reframes the job. The data scientist is not a passive conduit who finds out what the data "really says." The data scientist is the author of an interpretation, and that interpretation has to be defensible — not just statistically, but against the world the data came from.
+
+Here's the practical consequence. Before I touch a model, I want to know:
+
+- Who collected this data, and what were they trying to accomplish?
+- What was excluded — what didn't make it into the table?
+- What decision is this analysis going to inform, and who has to live with that decision?
+- What does the person closest to the problem already believe about it?
+
+None of those questions can be answered by the data. They are answered by talking to people. By walking the floor. By reading the SOP. By sitting in on the meeting where the decision will actually be made.
+
+I have seen too many projects where the data scientist treats the dataset as an oracle to be interrogated, and the humans around the dataset as obstacles to be managed. This gets it backwards. The humans hold the context that makes the dataset legible. The dataset is the artifact. The narrative — the thing that justifies a recommendation, a model, a product — has to come from interaction with the real world.
+
+Data is silent. Our job is to give it a voice that's honest about where the voice came from.

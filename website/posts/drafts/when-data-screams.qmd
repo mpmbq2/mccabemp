@@ -1,0 +1,33 @@
+---
+title: "When Data Screams"
+subtitle: "A personal philosophy of data science, part 3"
+author: "Matt McCabe"
+date: "2026-05-26"
+date-modified: last-modified
+draft: true
+---
+
+Data does not speak. But it does, occasionally, scream.
+
+Data screams when it contradicts something you were confident about. When the conversion rate drops 30% the week after you ship a "small UI tweak." When the patient cohort that was supposed to be a sanity check turns out to look nothing like the rest of the population. When the model that worked in development falls apart in deployment in a way you can't explain.
+
+These moments are the most valuable moments in the entire job. They are also the ones we are most likely to suppress.
+
+Here is the temptation, and I have given in to it as much as anyone: when the data screams, fix the data. Filter the outlier. Re-window the comparison. Drop the cohort. Add a control variable until the inconvenient signal goes away. You can almost always find a defensible-looking reason to do this. The defensible-looking reason is the problem.
+
+Data screams *because an assumption is wrong*. The assumption might be yours, or your stakeholder's, or the team that built the upstream system, or the entire organization's. But somewhere, somebody has been operating on a belief about the world that the data is now telling them is false. That is the most important information you will encounter in a project. It is worth more than any model you'll build that quarter.
+
+The correct response to data that screams is to chase it. Not to silence it.
+
+Concretely, this looks like:
+
+- **Assume the surprise is real until proven otherwise.** The default move is to suspect the pipeline, the join, the bug. Sometimes that's right. But it should be a hypothesis, not a foregone conclusion. Treat "this is a bug" with the same skepticism you'd treat "this is a discovery."
+- **Find the human whose mental model is being violated.** Sit with them. Walk through what they expected and why. The gap between their model and the data is the entire payload of the surprise.
+- **Resist the cleanup instinct.** If your first three actions are filtering, re-bucketing, and adjusting, you are removing information. Information is what you came for.
+- **Write the surprise down before you explain it.** Once you have an explanation, you can no longer remember how surprising it was. The record matters.
+
+This is also why I keep coming back to Bayesian methods. The whole apparatus — prior, likelihood, posterior — is built around making your assumptions explicit *before* you see the data, so that when the data disagrees, you have a documented record of what it disagreed with. A frequentist test asks "is this surprising under the null?" A Bayesian posterior asks "which of my prior beliefs has to give?" The second question is the one that does real work.
+
+The job is not to build a model that confirms what the stakeholder already believed. If that's all you do, you are a very expensive rubber stamp. The job is to find the place where the world is not what we thought it was, and to make that legible.
+
+Data does not speak. But when it screams, listen.

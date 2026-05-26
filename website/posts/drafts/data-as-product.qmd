@@ -1,0 +1,30 @@
+---
+title: "Data Is an Asset. Data Science Is the Refinery."
+subtitle: "A personal philosophy of data science, part 2"
+author: "Matt McCabe"
+date: "2026-05-26"
+date-modified: last-modified
+draft: true
+---
+
+I borrow this framing from [Eric Weber](https://www.linkedin.com/in/eric-weber-060397b7/): data is an asset that can be refined into a product. The framing is more useful than it sounds, because it forces a different question than "is the model accurate?"
+
+The question becomes: *what is the product, and who is it for?*
+
+Crude oil is an asset. It is also worthless to a driver. The driver needs gasoline. Between crude oil and gasoline sits a refinery, a logistics chain, and a quality standard. Nobody buys crude oil at the pump. Nobody should buy a parquet file from a data team, either — and yet that is often exactly what we ship.
+
+A raw dataset is the asset. A dashboard, a forecast, a risk score, a clinical decision-support tool — those are products. They are what the asset becomes after refinement. And just like with oil, the value lives almost entirely in the refining.
+
+This framing has consequences for how I think about the work.
+
+**The refinery is not the model.** It is much bigger than that. It is the schema decisions, the labeling rubric, the join logic, the missingness handling, the evaluation harness, the explainer, the failure mode someone is going to hit at 2 AM. The model is a single piece of equipment in a much larger plant.
+
+**The product specification comes from outside the data.** You cannot derive "what gasoline should be" from crude oil. You derive it from the engine that will burn it. Equivalently, you cannot derive the spec for a data product from the dataset. You derive it from the decision it will inform and the person making that decision.
+
+**Quality is a property of the product, not the asset.** "The data is clean" is the wrong claim. The right claim is "the product made from this data is fit for this purpose." Clean data that produces an unusable forecast has failed. Messy data that produces a forecast someone can act on has succeeded. The standard is the standard of the output.
+
+**Refinement adds value; raw access does not.** Handing a stakeholder direct query access to a raw table is the data equivalent of handing them a barrel of crude and a match. They will either burn themselves or do nothing useful with it. The job is to refine.
+
+The cliché version of data science is "we build models." The honest version is "we operate a refinery." The model is one piece of capital equipment in a plant that turns a noisy, partial, biased asset into something a person can use to make a better decision.
+
+That's the job. Everything else is plumbing.

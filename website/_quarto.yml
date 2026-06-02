@@ -1,16 +1,11 @@
 project:
   type: website
   render:
-    - "*.qmd"
-    - "!posts/drafts/*.qmd"
+    - index.qmd
 
 website:
   title: "Matt McCabe, PhD"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - blog.qmd
+  search: false
 
 format:
   html:
@@ -18,8 +13,8 @@ format:
       - simplex
       - brand
     css: styles.css
-    toc: true
-    code-fold: true
+    toc: false
+    code-fold: false
 
 execute:
-  cache: true
+  freeze: auto

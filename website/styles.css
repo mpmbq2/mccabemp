@@ -1,1 +1,36 @@
-/* css styles */
+body {
+  min-height: 100vh;
+}
+
+.quarto-title-block {
+  display: none;
+}
+
+main.content {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.splash {
+  text-align: center;
+}
+
+.splash h1 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.linkedin {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  font-weight: 650;
+  text-decoration: none;
+}

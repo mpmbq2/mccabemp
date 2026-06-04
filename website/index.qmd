@@ -16,7 +16,7 @@ I make data useful.
 :::
 :::
 
-I’m a data scientist working in healthcare and life sciences. Most of my work is about turning messy real-world data into evidence people can actually use: to evaluate products, understand clinical performance, make decisions, or avoid fooling themselves with a polished but irrelevant analysis.
+I’m a data scientist working in healthcare and life sciences. Most of my work is about turning messy real-world data into evidence people can actually use to evaluate products, understand clinical performance, make decisions, or avoid fooling themselves with a polished but irrelevant analysis.
 
 ## Things I Think About
 

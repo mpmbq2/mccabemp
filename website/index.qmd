@@ -32,28 +32,28 @@ Reproducibile analysis used to mean rerunnable pipelines, organized scripts, and
 ## Publications
 
 **Closing the Performance Gap Between Generalists and Breast Imaging Specialists Using a Nationally Deployed AI Workflow for Screening Mammography**\
-McCabe M, Wakelin E, Louis L, Ng A, Buist D, Lee C, Sorensen AG, Haslam B. *Radiology*. In Press.
+**McCabe M**, Wakelin E, Louis L, Ng A, Buist D, Lee C, Sorensen AG, Haslam B. *Radiology*. In Press.
 
 **[Equitable impact of an AI-driven breast cancer screening workflow in real-world US-wide deployment](https://www.nature.com/articles/s44360-025-00001-0)**\
-Louis L, Wakelin E, McCabe M, Ng A, Kim J, Lee C, Buist D, Sorensen AG, Haslam B. *Nature Health*. 2025.
+Louis L, Wakelin E, **McCabe M**, Ng A, Kim J, Lee C, Buist D, Sorensen AG, Haslam B. *Nature Health*. 2025.
 
 **[Cognitive Process Models Reveal Meaningful Brain-Behavior Associations in the Adolescent Brain Cognitive Development Study Stop-signal Task](https://pubmed.ncbi.nlm.nih.gov/41707230/)**\
-Barrows A, Weigard A, McCabe M, Potter A, Garavan H, Allgaier N. *J Cogn Neurosci*. 2026.
+Barrows A, Weigard A, **McCabe M**, Potter A, Garavan H, Allgaier N. *J Cogn Neurosci*. 2026.
 
 **[Recalibrating single-study effect sizes using hierarchical Bayesian models](https://www.frontiersin.org/journals/neuroimaging/articles/10.3389/fnimg.2023.1138193/full)**\
-Cao Z, McCabe M, Callas P, et al.; ENIGMA Addiction Working Group. *Front Neuroimaging*. 2023.
+Cao Z, **McCabe M**, Callas P, et al.; ENIGMA Addiction Working Group. *Front Neuroimaging*. 2023.
 
 **[Altered Fast Synaptic Transmission in a Mouse Model of DNM1-Associated Developmental Epileptic Encephalopathy](https://www.eneuro.org/content/8/2/ENEURO.0269-20.2020)**\
-McCabe MP, Shore AN, Frankel WN, Weston MC. *eNeuro*. 2021.
+**McCabe MP**, Shore AN, Frankel WN, Weston MC. *eNeuro*. 2021.
 
 **[Genetic inactivation of mTORC1 or mTORC2 in neurons reveals distinct functions in glutamatergic synaptic transmission](https://elifesciences.org/articles/51440)**\
-McCabe MP, Cullen ER, Barrows CM, Shore AN, Tooke KI, Laprade KA, Stafford JM, Weston MC. *eLife*. 2020.
+**McCabe MP**, Cullen ER, Barrows CM, Shore AN, Tooke KI, Laprade KA, Stafford JM, Weston MC. *eLife*. 2020.
 
 **[PTEN Loss Increases the Connectivity of Fast Synaptic Motifs and Functional Connectivity in a Developing Hippocampal Network](https://pmc.ncbi.nlm.nih.gov/articles/PMC5588456/)**\
-Barrows CM, McCabe MP, Chen H, Swann JW, Weston MC. *J Neurosci*. 2017.
+Barrows CM, **McCabe MP**, Chen H, Swann JW, Weston MC. *J Neurosci*. 2017.
 
 **[Riding the Calcium Wave to a Better Understanding of Ictal Events](https://pmc.ncbi.nlm.nih.gov/articles/PMC5083059/)**\
-McCabe MP, Weston MC. *Epilepsy Curr*. 2016.
+**McCabe MP**, Weston MC. *Epilepsy Curr*. 2016.
 
 **[Neural activation patterns underlying basolateral amygdala influence on intra-accumbens opioid-driven consummatory versus appetitive high-fat feeding behaviors in the rat](https://pubmed.ncbi.nlm.nih.gov/26501175/)**\
-Parker KE, McCabe MP, Johns HW, Lund DK, Odu F, Sharma R, Thakkar MM, Cornelison DD, Will MJ. *Behav Neurosci*. 2015.
+Parker KE, **McCabe MP**, Johns HW, Lund DK, Odu F, Sharma R, Thakkar MM, Cornelison DD, Will MJ. *Behav Neurosci*. 2015.

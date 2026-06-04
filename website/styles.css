@@ -1,36 +1,59 @@
-body {
-  min-height: 100vh;
+main.content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
 }
 
 .quarto-title-block {
   display: none;
 }
 
-main.content {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 2rem;
-}
-
 .splash {
   text-align: center;
+  margin-bottom: 4rem;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
 }
 
 .splash h1 {
-  margin-bottom: 1.5rem;
-  font-size: clamp(2.5rem, 8vw, 5.5rem);
-  line-height: 1;
-  letter-spacing: 0;
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  line-height: 1.1;
 }
 
-.linkedin {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2.75rem;
-  padding: 0 1rem;
-  border: 1px solid currentColor;
-  border-radius: 6px;
-  font-weight: 650;
+.splash p {
+  color: #666;
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #666;
   text-decoration: none;
+  transition: color 0.15s;
+}
+
+.social-icon:hover {
+  color: #0a66c2;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
 }

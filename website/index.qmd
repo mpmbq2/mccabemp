@@ -1,9 +1,46 @@
 ---
-title: "Coming soon"
+title: "Matt McCabe, PhD"
 ---
 
 ::: {.splash}
-# Coming soon
+![](profile.png){.avatar}
 
-[LinkedIn](https://www.linkedin.com/in/matthewpmccabe){.linkedin}
+# Matt McCabe, PhD
+
+Decision-driven analytics for healthcare and life sciences.
+
+<a href="https://www.linkedin.com/in/matthewpmccabe" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
 :::
+
+## Publications
+
+**Closing the Performance Gap Between Generalists and Breast Imaging Specialists Using a Nationally Deployed AI Workflow for Screening Mammography**\
+McCabe M, Wakelin E, Louis L, Ng A, Buist D, Lee C, Sorensen AG, Haslam B. *Radiology*. In Press.
+
+**Equitable impact of an AI-driven breast cancer screening workflow in real-world US-wide deployment**\
+Louis L, Wakelin E, McCabe M, Ng A, Kim J, Lee C, Buist D, Sorensen AG, Haslam B. *Nature Health*. 2025.
+
+**Cognitive Process Models Reveal Meaningful Brain-Behavior Associations in the Adolescent Brain Cognitive Development Study Stop-signal Task**\
+Barrows A, Weigard A, McCabe M, Potter A, Garavan H, Allgaier N. *J Cogn Neurosci*. 2026.
+
+**Recalibrating single-study effect sizes using hierarchical Bayesian models**\
+Cao Z, McCabe M, Callas P, et al.; ENIGMA Addiction Working Group. *Front Neuroimaging*. 2023.
+
+**Altered Fast Synaptic Transmission in a Mouse Model of DNM1-Associated Developmental Epileptic Encephalopathy**\
+McCabe MP, Shore AN, Frankel WN, Weston MC. *eNeuro*. 2021.
+
+**Genetic inactivation of mTORC1 or mTORC2 in neurons reveals distinct functions in glutamatergic synaptic transmission**\
+McCabe MP, Cullen ER, Barrows CM, Shore AN, Tooke KI, Laprade KA, Stafford JM, Weston MC. *eLife*. 2020.
+
+**PTEN Loss Increases the Connectivity of Fast Synaptic Motifs and Functional Connectivity in a Developing Hippocampal Network**\
+Barrows CM, McCabe MP, Chen H, Swann JW, Weston MC. *J Neurosci*. 2017.
+
+**Riding the Calcium Wave to a Better Understanding of Ictal Events**\
+McCabe MP, Weston MC. *Epilepsy Curr*. 2016.
+
+**Neural activation patterns underlying basolateral amygdala influence on intra-accumbens opioid-driven consummatory versus appetitive high-fat feeding behaviors in the rat**\
+Parker KE, McCabe MP, Johns HW, Lund DK, Odu F, Sharma R, Thakkar MM, Cornelison DD, Will MJ. *Behav Neurosci*. 2015.
+
+## Writing
+
+Coming soon.
